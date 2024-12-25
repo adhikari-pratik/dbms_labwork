@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply flex flex-col min-h-screen; /* Flexbox layout with full height */
+}
+
+#root {
+  @apply flex-grow flex flex-col; /* Make the root grow to fill available space */
+}
